@@ -21,10 +21,6 @@ export class AppComponent {
     new WishItem('Learn Java'),
   ];  
 
-  filter = () => {};
-
-  get visibleItems(): WishItem[] {
-    return this.items.filter(this.filter);
-  }
+  filter :any;
   
 }
